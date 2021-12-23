@@ -1,0 +1,310 @@
+body {
+	width: 100%;
+	background-color: #F2F5F7;
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+.cabecalho{
+	width: 30%;
+}
+
+.container {
+	width: 94%;
+	margin: 0 auto;
+	text-align: center;
+}
+.subtitulos {
+	font-weight: bold;
+	text-align: center;
+	margin: 5%;
+	font-size: 32px;
+	margin-bottom: 10px;
+}
+
+.cabecalhoPrincipal {
+	background-color: #FFF;
+	padding: 20px 0;
+}
+
+.cabecalhoPrincipal-titulo {
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.cabecalhoPrincipal-titulo a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.cabecalhoPrincipal-nav-link {
+	font-size: 20px;
+	padding: 5px;
+	margin-bottom: 5px;
+	color: #9799A6;
+	background-color: #FFF;
+	text-decoration: none;
+	transition: .3s;
+	display: block;
+
+	border-bottom: 1px solid #9aa3db;
+}
+
+.conteudoPrincipal {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+.conteudoPrincipal-especialidades-link {
+	height: 95px;
+	background-color: rgb(201, 227, 252);
+	text-align: center;
+	font-size: 20px;
+	margin: 10px auto;
+	transition: .3s;
+	border-radius: 1.5em;
+	box-shadow: 2px 2px 2px #CCC;
+	position: relative;
+}
+
+.conteudoPrincipal-especialidades-link a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	display: inline;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.conteudoPrincipal-especialidades-link:hover {
+	box-shadow: 4px 4px 4px #CCC;
+}
+
+.conteudoPrincipal-especialidades-link a:before {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 10px auto;
+}
+.videoSobre-button {
+	border-radius: 8px;
+	background-color: blue;
+	display: block;
+	color: #FFF;
+	border: none;
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	font-size: .8em;
+	outline: none;
+}
+.videoSobre-button:hover{
+	cursor: pointer;
+	transition: .5s all;
+	transform: scale(1.1);
+}
+
+.conteudoPrincipal-cursos-link:nth-child(even) a:before {
+	background: url(../img/paciente.svg) no-repeat;	
+}
+
+.conteudoPrincipal-cursos-link:nth-child(odd) a:before {
+	background: url(../img/paciente.svg) no-repeat;
+}
+
+
+.rodapePrincipal {
+	background-color: #324C64;
+	padding-top: 20px;
+}
+
+.rodapePrincipal .subtitulo {
+	margin-top: 20px;
+	text-align: center;
+	color: #FFF;
+}
+
+.covid{
+	margin-top: 10px;
+	margin-left: 30px;
+	text-align: center;
+	font-size: 20px;
+	color: #FFF;
+}
+.covid1{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 20px;
+	color: #FFF;
+
+}
+
+.rodapePrincipal-navMap-link {
+	font-size: .9em;
+}
+
+.navmap-list-title {
+	font-weight: 700;
+	font-size: 1.3em;
+	margin: .9em 0;
+	padding-left: .3em;
+	padding-top: .2em;
+	padding-bottom: .2em;
+}
+
+.navmap-list-title + .rodapePrincipal-navMap-link {
+	margin-top: 0;
+}
+
+
+.rodapePrincipal-patrocinadores {
+	margin-top: 30px;
+	background: #F2F5F7;
+	padding: 20px 0;
+}
+
+.rodapePrincipal-contatoForm {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.rodapePrincipal-contatoForm label[for=email-contato] {
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.rodapePrincipal-contatoForm-emailInput {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 10px;
+}
+
+.rodapePrincipal-contatoForm-submit {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #4DBA7A;
+	color: #FFF;
+	cursor: pointer;
+	
+}
+
+.rodapePrincipal-contatoForm-submit,
+.rodapePrincipal-contatoForm-emailInput {
+	outline: 0;
+	border: 1px solid #4DBA7A;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.videoSobre {
+	background-color: #5E9EDC;
+	padding: 25px 0;
+
+}
+
+
+
+.videoSobre .container {
+	color: #FFF;
+}
+
+.videoSobre-sobre-title {
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
+.videoSobre-sobre {
+	font-size: 1.3em;
+	line-height: 2;
+}
+
+
+
+.rodapePrincipal-contatoForm-legend {
+	margin-bottom: 10px;
+}
+
+@media(min-width: 769px) {
+
+	.container {
+		width: 85%;	
+	}
+
+	.subtitulo {
+		text-align: left;
+	}
+
+	.cabecalhoPrincipal-nav-link {
+		border-radius: 5px;
+		border: 1px solid #9799A6;
+	}
+
+	.cabecalhoPrincipal-nav-link:hover {
+		color: #FFF;
+		background-color: #9799A6;
+	}
+
+	.cabecalhoPrincipal-titulo {
+		margin: 0;
+	}
+
+	.cabecalhoPrincipal-nav {
+		width: auto;
+	}
+
+	.cabecalhoPrincipal-nav-link {
+		width: auto;
+		margin: 0 0 0 10px;
+	}
+
+	.rodapePrincipal-contatoForm {
+		margin-top: 0;
+		text-align: left;
+	}
+
+	.conteudoPrincipal-cursos-link:nth-child(3n) {
+		margin-right: 0;
+	}
+
+	.conteudoPrincipal-cursos-link:nth-child(3n+1) {
+		margin-left: 0;
+	}
+
+}
+
+@media(min-width: 1000px) {
+	.conteudoPrincipal-cursos-link {
+		margin: 1.333%;
+	}
+
+	.conteudoPrincipal-cursos-link:nth-child(3n) {
+		margin-right: 1.33%;
+	}
+
+	.conteudoPrincipal-cursos-link:nth-child(3n+1) {
+		margin-left: 1.333%;
+	}
+
+	.conteudoPrincipal-cursos-link:nth-child(4n) {
+		margin-right: 0;
+	}
+
+	.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+		margin-left: 0;
+	}
+
+	.videoSobre-sobre {
+		margin-left: 1.5em;
+	}
+
+}
+
+
